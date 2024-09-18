@@ -138,7 +138,7 @@ Select next.
 
 
 Here we’ll need to create a password, for the Root user, for simplicity, I'll use boot for my password.
-You’ll want to use something more secure. Remember the password you make as we’ll be using it when we get to HeidiSQL.<br><br><br><br>
+You’ll want to use something more secure. Remember the password you make as we’ll be using it when we get to HeidiSQL.
 
 
 
