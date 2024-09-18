@@ -33,12 +33,14 @@ CGI handles submitting tickets, saving tickets, sending emails, and retrieving i
 
 
 Type control panel in the Windows Search Bar and open the app. Click on to programs and features.
+
+
  
 ![image](https://github.com/user-attachments/assets/a6afd495-de25-43ea-aec7-98ab4349db97)
 ![image](https://github.com/user-attachments/assets/00d8e013-4fde-47dc-9f50-0de4e8c02697)
 
 
-
+<p>
 - On the left side, click Turn Windows features on or off.
 
 
