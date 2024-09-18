@@ -151,14 +151,15 @@ Now, click execute.
 
 
 
-
-Open up IIS as an administrator.
-![image](https://github.com/user-attachments/assets/60485847-bd2b-4872-b867-b15956d35d5f)<br><br><br><br>
-
-
 Now, we’re going to make the webserver aware that PHP has been installed on the VM and tell it where it is.
-
+Open up IIS as an administrator.
 Click on PHP Manager -> Register new PHP version. 
+![image](https://github.com/user-attachments/assets/60485847-bd2b-4872-b867-b15956d35d5f)
+
+
+
+
+
 
 ![image](https://github.com/user-attachments/assets/07d419df-7c1c-4572-bcd2-042e6f2a2d88)<br><br><br><br>
 
