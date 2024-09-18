@@ -49,19 +49,19 @@ On the left side, click Turn Windows features on or off.
 
 Click the box next to Internet Information Services, then click plus button to the left of the box we checked.
 
-![image](https://github.com/user-attachments/assets/aaa1f002-85a2-4e44-ac1e-eaf270750ad0)
+![image](https://github.com/user-attachments/assets/aaa1f002-85a2-4e44-ac1e-eaf270750ad0)<br><br><br><br>
 
 
 World Wide Web Services -> Application Development Services -> click the box next to CGI.
 
-![image](https://github.com/user-attachments/assets/9428c221-0c3b-4b50-ac0d-a2ffce3ad385)
+![image](https://github.com/user-attachments/assets/9428c221-0c3b-4b50-ac0d-a2ffce3ad385)<br><br><br><br>
 
  
 Click ok and wait for the changes to be applied.
 
 After the webserver is installed, we'll need to download the following:
 
-![image](https://github.com/user-attachments/assets/8adb9afa-e9f9-4ef2-aea2-685f181f8009)
+![image](https://github.com/user-attachments/assets/8adb9afa-e9f9-4ef2-aea2-685f181f8009)<br><br><br><br>
 
 
 
@@ -70,14 +70,14 @@ Fist up, PHPManagerForIIS_V1.5.0.msi.
 PHP is a backend webserver language that osTicket runs on. 
 Now we’ll click on the exe to install it.
 
-![image](https://github.com/user-attachments/assets/9bd5fd29-17ea-431a-b071-1bf7f9bcf77b)
+![image](https://github.com/user-attachments/assets/9bd5fd29-17ea-431a-b071-1bf7f9bcf77b)<br><br><br><br>
 
 
 
 After that's done, we'll need to install rewrite_amd64_en-US.msi, which changes complicated URLs into simpler ones, enabling osTicket’s URLs to look simpler and easier to manage.
 Let’s click on the exe to install it.
 
-![image](https://github.com/user-attachments/assets/65ac1d42-62cc-49c6-a77a-abdfa77fa147)
+![image](https://github.com/user-attachments/assets/65ac1d42-62cc-49c6-a77a-abdfa77fa147)<br><br><br><br>
 
 
 
@@ -87,7 +87,7 @@ On the C drive we’re going to unzip the PHP files that osTicket is going to us
 
 Unzip php-7.3.8-nts-Win32-VC15-x86.zip to the PHP folder you just created on the C drive.
 
-![image](https://github.com/user-attachments/assets/393dc89e-0314-42a3-83d6-0000d2adf737)
+![image](https://github.com/user-attachments/assets/393dc89e-0314-42a3-83d6-0000d2adf737)<br><br><br><br>
 
 
 
@@ -95,12 +95,12 @@ After that’s finished, we’re going to install VC_redist.x86.exe. Which insta
 
 Let’s click on the exe to get the installation started.
 
-![image](https://github.com/user-attachments/assets/f08b09a0-e44d-48fe-a5d5-2f20e93c5e54)
+![image](https://github.com/user-attachments/assets/f08b09a0-e44d-48fe-a5d5-2f20e93c5e54)<br><br><br><br>
 
 
 MySQL 5.5.62-win32 is going to install a MySQL Server which is a database that osTicket is going to store all of our data in, such as user accounts, ticketing information, etc.
 
-Let’s click on the exe to get started.
+Let’s click on the exe to get started.<br><br><br><br>
 
 
 
@@ -109,31 +109,40 @@ Let’s click on the exe to get started.
 
 
 
-When this window opens up, select Typical.
+When this window opens up, select Typical.<br><br><br><br>
+
+
 
 ![image](https://github.com/user-attachments/assets/3ab555b2-6966-4350-aff3-d4bc1afbb15c)
 
 
 
-Launch the configuration wizard.
+Launch the configuration wizard.<br><br><br><br>
+
+
 
 ![image](https://github.com/user-attachments/assets/e858e5df-0b83-4730-90fd-70b265dc3a26)
 
 
 
-Select standard configuration.
+Select standard configuration.<br><br><br><br>
+
+
 
 ![image](https://github.com/user-attachments/assets/338e8360-e498-40d4-8460-ecbbefaf4081)
 
 
 
-Select next.
+Select next.<br><br><br><br>
+
+
+
 
 ![image](https://github.com/user-attachments/assets/1d624a1b-60cb-462d-b788-020af9d11e05)
 
 
 Here we’ll need to create a password, for the Root user, for simplicity, I'll use boot for my password.
-You’ll want to use something more secure. Remember the password you make as we’ll be using it when we get to HeidiSQL.
+You’ll want to use something more secure. Remember the password you make as we’ll be using it when we get to HeidiSQL.<br><br><br><br>
 
 
 
@@ -141,7 +150,7 @@ You’ll want to use something more secure. Remember the password you make as we
 
 
 
-Now, click execute.
+Now, click execute.<br><br><br><br>
 
 Open up IIS as an administrator.
 
