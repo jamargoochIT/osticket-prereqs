@@ -153,14 +153,8 @@ Now, click execute.
 
 Now, we’re going to make the webserver aware that PHP has been installed on the VM and tell it where it is.
 Open up IIS as an administrator.
-Click on PHP Manager -> Register new PHP version. 
+Click on PHP Manager -> Register new PHP version. Follow this path -> C drive -> PHP -> PHP-cgi.exe.
 ![image](https://github.com/user-attachments/assets/60485847-bd2b-4872-b867-b15956d35d5f)
-
-
-
-
-
-
 ![image](https://github.com/user-attachments/assets/07d419df-7c1c-4572-bcd2-042e6f2a2d88)<br><br><br><br>
 
 
@@ -201,7 +195,7 @@ On the far-right side, click on Browse .80
 
 
 
-And now the osTicket site should open in our browser.
+And now the osTicket should open in our browser.
 
 
 
@@ -228,7 +222,7 @@ Then enable (through right-clicking) the following PHP extensions:
 - php_imap.dll
 - php_intl.dll
 - php_opcache.dll
-
+They'll be in the greyed out disabled section.
 
 ![image](https://github.com/user-attachments/assets/c6e5c638-8044-48be-a76e-85462cc204f0)<br><br><br><br>
 
@@ -364,7 +358,7 @@ Click New.
 
 
 
-The user is automatically filled out as root because we set up our SQL server earlier and the Root user password. 
+The user is automatically filled out as root because we set up our SQL server earlier along with the Root user password. 
 
 Here is when we created the password.
 
@@ -393,7 +387,7 @@ Back to osTicket in our browser, we’ll finish filling out the bottom fields by
 - MySQL Password: boot
 
 
-![image](https://github.com/user-attachments/assets/42c7cb52-2919-4474-aeec-3bfa8ca4cf6a)<br><br><br><br>
+![image](https://github.com/user-attachments/assets/82c9a2c0-5331-47c9-866e-757d6e7cf7c0)<br><br><br><br>
 
 
 
@@ -420,10 +414,10 @@ It should bring us to:
 
 
 
-Now all you need to do is log in with the credentials we made in the Database Settings to finish installing osTIcket: 
+Now all you need to do is log in with the credentials we made in the Admin User section of the osTicket Basic Installation page.
  
 
-![image](https://github.com/user-attachments/assets/4114d49d-0fa6-4610-a6b0-fc5aea1793d3)<br><br><br><br>
+![image](https://github.com/user-attachments/assets/97767470-bbc1-4311-a628-bc855f875339)<br><br><br><br>
 
 
 
