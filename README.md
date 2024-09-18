@@ -40,24 +40,24 @@ Type control panel in the Windows Search Bar and open the app. Click on to progr
 ![image](https://github.com/user-attachments/assets/00d8e013-4fde-47dc-9f50-0de4e8c02697)
 
 
-<p>
-- On the left side, click Turn Windows features on or off.
+
+On the left side, click Turn Windows features on or off.
 
 
 ![image](https://github.com/user-attachments/assets/b4ff03b8-12e9-423c-8798-3ea3aefee9c6)
 
 
-- Click the box next to Internet Information Services, then click plus button to the left of the box we checked.
+Click the box next to Internet Information Services, then click plus button to the left of the box we checked.
 
 ![image](https://github.com/user-attachments/assets/aaa1f002-85a2-4e44-ac1e-eaf270750ad0)
 
 
-- World Wide Web Services -> Application Development Services -> click the box next to CGI.
+World Wide Web Services -> Application Development Services -> click the box next to CGI.
 
 ![image](https://github.com/user-attachments/assets/9428c221-0c3b-4b50-ac0d-a2ffce3ad385)
 
  
-- Click ok and wait for the changes to be applied.
+Click ok and wait for the changes to be applied.
 
 After the webserver is installed, we'll need to download the following:
 
