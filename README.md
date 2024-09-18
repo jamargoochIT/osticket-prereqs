@@ -35,7 +35,8 @@ CGI is a dependency that osTicket needs for the webserver.
 
 Type control panel in the Windows Search Bar and open the app. Click on to programs and features.
  
- 
+ ![image](https://github.com/user-attachments/assets/5a897e74-da66-4d8f-9823-8945017c5760)
+
 
 - On the left side, click Turn Windows features on or off.
  
