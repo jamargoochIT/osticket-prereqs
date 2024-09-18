@@ -40,11 +40,13 @@ Type control panel in the Windows Search Bar and open the app. Click on to progr
 
 
 - On the left side, click Turn Windows features on or off.
+
+
 ![image](https://github.com/user-attachments/assets/b4ff03b8-12e9-423c-8798-3ea3aefee9c6)
 
 
 - Click the box next to Internet Information Services, then click plus button to the left of the box we checked.
- 
+
 ![image](https://github.com/user-attachments/assets/aaa1f002-85a2-4e44-ac1e-eaf270750ad0)
 
 
