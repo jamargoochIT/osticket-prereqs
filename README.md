@@ -144,18 +144,14 @@ You’ll want to use something more secure. Remember the password you make as we
 ![image](https://github.com/user-attachments/assets/1d624a1b-60cb-462d-b788-020af9d11e05)
 
 
-Now, click execute.<br><br><br><br>
-
-
-Open up IIS as an administrator.
-
+Now, click execute.
 
 ![image](https://github.com/user-attachments/assets/a6594806-cc0d-4892-8e30-d1b858420d97)
 
 
 
 
-
+Open up IIS as an administrator.
 ![image](https://github.com/user-attachments/assets/60485847-bd2b-4872-b867-b15956d35d5f)
 
 
@@ -336,7 +332,7 @@ HeidiSQL is an application that allows us to make a connection to and configure 
 
 
 
-We’ll click next all the way through until we get the option to install. Now we’ll install the client.
+We want to keep all the default settings, so we’ll click next all the way through until we get the option to install. Now we’ll install the client.
 
 
 When the installation finishes, launch HeidiSQL.
