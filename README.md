@@ -94,13 +94,15 @@ Unzip php-7.3.8-nts-Win32-VC15-x86.zip to the PHP folder you just created on the
 After that’s finished, we’re going to install VC_redist.x86.exe. Which installs Visual C++ redistributable, which is like a toolbox that osTicket needs to operate correctly. Installing it ensures that all the parts osTicket relies on are available on our virtual machine.
 
 Let’s click on the exe to get the installation started.
+Now click on the box next to I agree and click Install. 
 
 ![image](https://github.com/user-attachments/assets/f08b09a0-e44d-48fe-a5d5-2f20e93c5e54)<br><br><br><br>
 
 
 MySQL 5.5.62-win32 is going to install a MySQL Server which is a database that osTicket is going to store all of our data in, such as user accounts, ticketing information, etc.
 
-Let’s click on the exe to get started.<br><br><br><br>
+Let’s click on the exe to get started.
+When this window opens up, select Typical.
 
 
 
@@ -109,7 +111,7 @@ Let’s click on the exe to get started.<br><br><br><br>
 
 
 
-When this window opens up, select Typical.<br><br><br><br>
+Launch the configuration wizard.
 
 
 
@@ -117,7 +119,7 @@ When this window opens up, select Typical.<br><br><br><br>
 
 
 
-Launch the configuration wizard.<br><br><br><br>
+Select standard configuration.
 
 
 
@@ -125,7 +127,8 @@ Launch the configuration wizard.<br><br><br><br>
 
 
 
-Select standard configuration.<br><br><br><br>
+Select next.
+
 
 
 
@@ -133,26 +136,25 @@ Select standard configuration.<br><br><br><br>
 
 
 
-Select next.<br><br><br><br>
-
+Here we’ll need to create a password, for the Root user, for simplicity, I'll use boot for my password.
+You’ll want to use something more secure. Remember the password you make as we’ll be using it when we get to HeidiSQL.<br><br><br><br>
 
 
 
 ![image](https://github.com/user-attachments/assets/1d624a1b-60cb-462d-b788-020af9d11e05)
 
 
-Here we’ll need to create a password, for the Root user, for simplicity, I'll use boot for my password.
-You’ll want to use something more secure. Remember the password you make as we’ll be using it when we get to HeidiSQL.<br><br><br><br>
+Now, click execute.<br><br><br><br>
 
+
+Open up IIS as an administrator.
 
 
 ![image](https://github.com/user-attachments/assets/a6594806-cc0d-4892-8e30-d1b858420d97)
 
 
 
-Now, click execute.<br><br><br><br>
 
-Open up IIS as an administrator.
 
 ![image](https://github.com/user-attachments/assets/60485847-bd2b-4872-b867-b15956d35d5f)
 
