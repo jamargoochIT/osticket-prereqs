@@ -30,7 +30,7 @@ After we log into our Virtual Machine, we’re going to enable and install Inter
 IIS (Internet Information Services) is a web server that hosts websites and web applications. This webserver is going to run osTicket.
 CGI (Common Gateway Interface) is a standard way for a web server to communicate with scripts (like programs) that can create web pages.
 CGI handles submitting tickets, saving tickets, sending emails, and retrieving information based on your request.
-
+</p>
 
 Type control panel in the Windows Search Bar and open the app. Click on to programs and features.
 
@@ -40,9 +40,9 @@ Type control panel in the Windows Search Bar and open the app. Click on to progr
 ![image](https://github.com/user-attachments/assets/00d8e013-4fde-47dc-9f50-0de4e8c02697)
 
 
-
+<p>
 On the left side, click Turn Windows features on or off.
-
+</p>
 
 ![image](https://github.com/user-attachments/assets/b4ff03b8-12e9-423c-8798-3ea3aefee9c6)
 
