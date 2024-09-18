@@ -65,7 +65,8 @@ After the webserver is installed, we'll need to download the following:
 
 
 Fist up, PHPManagerForIIS_V1.5.0.msi.
-PHP is a backend webserver language that osTicket runs on. Now we’ll click on the exe to install it.
+PHP is a backend webserver language that osTicket runs on. 
+Now we’ll click on the exe to install it.
 
 ![image](https://github.com/user-attachments/assets/9bd5fd29-17ea-431a-b071-1bf7f9bcf77b)
 
@@ -80,14 +81,15 @@ Let’s click on the exe to install it.
 
 Now let’s create a folder in the C drive named PHP.
 
-Alright, now we’re going to unzip the PHP files that osTicket is going to use onto the C drive.
+On the C drive we’re going to unzip the PHP files that osTicket is going to use.
+
 Unzip php-7.3.8-nts-Win32-VC15-x86.zip to the PHP folder you just created on the C drive.
 
 ![image](https://github.com/user-attachments/assets/393dc89e-0314-42a3-83d6-0000d2adf737)
 
 
 
-After that’s finished, we’re going to install VC_redist.x86.exe. Which installs Visual C++ redistributable, giving osTicket the tools to operate properly. 
+After that’s finished, we’re going to install VC_redist.x86.exe. Which installs Visual C++ redistributable, which is like a toolbox that osTicket needs to operate correctly. Installing it ensures that all the parts osTicket relies on are available on our virtual machine.
 
 Let’s click on the exe to get the installation started.
 
@@ -101,6 +103,9 @@ Let’s click on the exe to get started.
 
 
 ![image](https://github.com/user-attachments/assets/cb1e9bd8-a3c8-4f02-a784-353036fa279a)
+
+
+
 
 When this window opens up, select Typical.
 
@@ -141,7 +146,7 @@ Open up IIS as an administrator.
 ![image](https://github.com/user-attachments/assets/60485847-bd2b-4872-b867-b15956d35d5f)
 
 
-Now, we’re going to make the webserver aware of PHP being installed on the VM and tell it where it is.
+Now, we’re going to make the webserver aware that PHP has been installed on the VM and tell it where it is.
 
 Click on PHP Manager -> Register new PHP version. 
 
@@ -156,7 +161,7 @@ Start and stop the server in IIS using the buttons on the right side.
 
 
 Now we're off to install osTicket. First, unzip osTicket-v1.15.8.zip. Copy the folder upload into the C drive folder wwwroot.
-Path C:\inetpub/wwwroot.
+Path C:\inetpub -> wwwroot.
 
 ![image](https://github.com/user-attachments/assets/1e3e6c63-bb61-4c65-aaea-e86b5d2972d9)
 
@@ -169,7 +174,7 @@ After we’ve copied the upload folder to the destination above, rename the uplo
 
 
 
-Once again, run IIS as an admin. Restart the server by right-clicking on virtual-ticket on the left side and selecting stop, then, once the server has stopped, right-click it again and select start. 
+Once again, run IIS as an admin. Stop and then start the server by right-clicking on virtual-ticket on the left side and selecting stop, then, once the server has stopped, right-click it again and select start. 
 Now On the left side, we’ll go down this path, virtual-ticket -> Sites -> Default Web Site -> osTicket.
 
 
@@ -185,7 +190,8 @@ On the far-right side, click on Browse .80
 
 
 
-And now the osTicket site should open in our browser. 
+And now the osTicket site should open in our browser.
+
 
 
 ![image](https://github.com/user-attachments/assets/7cf27682-feb6-4d4a-9cdd-269d86abab30)
@@ -225,7 +231,7 @@ When we’ve finished enabling the PHP extensions, we’ll refresh osTIcket in o
 
 
 
-And it should change to the following
+And it should change to the following:
 
 
 ![image](https://github.com/user-attachments/assets/14fffd29-4a6d-4bc8-a728-a968acca12bd)
@@ -262,7 +268,7 @@ Select, Remove all inherited permissions from this object.
 
 
 
-Then click Add, and the select a principal. 
+Then click Add, and then select a principal. 
 
 
 ![image](https://github.com/user-attachments/assets/ad2d57d7-b99c-459a-85f8-7e4b1511c03d)
@@ -291,7 +297,7 @@ Then click apply and then OK and OK again.
 
 
 
-Now we’ll go back to osTicket in our browser press continue.
+Now we’ll go back to osTicket in our browser and press continue.
 
 
 ![image](https://github.com/user-attachments/assets/79c48ad0-1b78-4016-9f41-a3e43013c102)
@@ -305,9 +311,11 @@ Now we’ll fill out the required fields that are highlighted in the image.
 
 
 
-For the final time, back to the osTicket-Installation-Files folder.
+For the final time, let's go back to the osTicket-Installation-Files folder.
 We need to log into the backend database we created earlier (My SQL) and create another database specific to osTicket then provide the credentials for it.
+
 To do that we need to install HeidiSQL.
+
 HeidiSQL is an application that allows us to make a connection to and configure our database.
 
 
@@ -316,6 +324,7 @@ HeidiSQL is an application that allows us to make a connection to and configure 
 
 
 We’ll click next all the way through until we get the option to install. Now we’ll install the client.
+
 
 When the installation finishes, launch HeidiSQL.
 
@@ -332,6 +341,7 @@ Click Skip.
 
 
 Now we’ll make a connection to our database and setup a database for osTicket to use and put that information into the required fields to finish installing osTicket.
+
 Click New.
 
 
@@ -339,7 +349,14 @@ Click New.
 
 
 
-The user is automatically filled out as root because we set up our SQL server earlier and the Root user a password. Now we’ll type in the password we created when we setup the SQL server to connect HeidiSQL to it.
+The user is automatically filled out as root because we set up our SQL server earlier and the Root user password. 
+
+Here is when we created the password.
+
+![image](https://github.com/user-attachments/assets/372ef859-01a0-4764-abf4-13783cb2e287)
+
+
+Now we’ll type in the password we created when we setup the SQL server to connect HeidiSQL to it.
 
 
 ![image](https://github.com/user-attachments/assets/e4133bd1-b3b0-4a10-a75f-a42606b97cc7)
@@ -354,7 +371,7 @@ In the right menu, right click and select create new, and then select database. 
 
 We're almost at the finish line.
 
-Back in the osTicket in our browser, we’ll finish filling out the bottom fields by entering the name and password of the database we just created in Heidi into the SQL database field: 
+Back to osTicket in our browser, we’ll finish filling out the bottom fields by entering the name and password of the database we just created in Heidi into the SQL database field: 
 
 - MySQL Database: osTicket
 - MySQL Username: boot
@@ -372,7 +389,7 @@ Now, finally, click Install Now!
 
 
 
-This is the screen we get next: 
+This is the screen we should get next: 
 
 
 ![image](https://github.com/user-attachments/assets/c369e0db-e4f3-4b62-b704-0197d8d7962f)
@@ -388,7 +405,7 @@ It should bring us to:
 
 
 
-Now all you need to do is log in with the credentials we made in the Database Setting to finish installing osTIcket: 
+Now all you need to do is log in with the credentials we made in the Database Settings to finish installing osTIcket: 
  
 
 ![image](https://github.com/user-attachments/assets/4114d49d-0fa6-4610-a6b0-fc5aea1793d3)
