@@ -222,6 +222,7 @@ Then enable (through right-clicking) the following PHP extensions:
 - php_imap.dll
 - php_intl.dll
 - php_opcache.dll<br>
+
 They'll be in the greyed out disabled section.
 
 ![image](https://github.com/user-attachments/assets/c6e5c638-8044-48be-a76e-85462cc204f0)<br><br><br><br>
