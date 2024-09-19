@@ -402,7 +402,7 @@ Now, finally, click Install Now!
 This is the screen we should get next: 
 
 
-![image](https://github.com/user-attachments/assets/c369e0db-e4f3-4b62-b704-0197d8d7962f)<br>
+![image](https://github.com/user-attachments/assets/c369e0db-e4f3-4b62-b704-0197d8d7962f)
 Now click on the link below: Your Staff Control Panel.><br><br><br>
 
 It should bring us to:
