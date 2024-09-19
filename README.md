@@ -48,7 +48,7 @@ On the left side, click Turn Windows features on or off.
 ![image](https://github.com/user-attachments/assets/b4ff03b8-12e9-423c-8798-3ea3aefee9c6)<br><br><br><br>
 
 
-Click the box next to Internet Information Services, then click plus button to the left of the box we checked.
+Click the box next to Internet Information Services, then click the plus button to the left of the box we checked.
 
 ![image](https://github.com/user-attachments/assets/aaa1f002-85a2-4e44-ac1e-eaf270750ad0)<br><br><br><br>
 
@@ -75,7 +75,7 @@ Now we’ll click on the exe to install it.
 
 
 
-After that's done, we'll need to install rewrite_amd64_en-US.msi, which changes complicated URLs into simpler ones, enabling osTicket’s URLs to look simpler and easier to manage.
+After that's done, we'll need to install rewrite_amd64_en-US.msi, which changes complicated URLs into simpler ones, enabling osTicket’s URLs to look simpler and become easier to manage.
 Let’s click on the exe to install it.
 
 ![image](https://github.com/user-attachments/assets/65ac1d42-62cc-49c6-a77a-abdfa77fa147)<br><br><br><br>
@@ -380,7 +380,7 @@ In the right menu, right click and select create new, and then select database. 
 
 We're almost at the finish line.
 
-Back to osTicket in our browser, we’ll finish filling out the bottom fields by entering the name and password of the database we just created in Heidi into the SQL database field: 
+Back to osTicket in our browser, we’ll finish filling out the bottom fields by entering the name and password of the database we just created in Heidi into the SQL database fields: 
 
 - MySQL Database: osTicket
 - MySQL Username: boot
