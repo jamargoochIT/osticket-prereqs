@@ -69,14 +69,14 @@ After the webserver is installed, we'll need to download the following:
 
 Fist up, PHPManagerForIIS_V1.5.0.msi.
 PHP is a backend webserver language that osTicket runs on. 
-Now we’ll click on the exe to install it.
+Now we’ll click on the .exe to install it.
 
 ![image](https://github.com/user-attachments/assets/9bd5fd29-17ea-431a-b071-1bf7f9bcf77b)<br><br><br><br>
 
 
 
 After that's done, we'll need to install rewrite_amd64_en-US.msi, which changes complicated URLs into simpler ones, enabling osTicket’s URLs to look simpler and become easier to manage.
-Let’s click on the exe to install it.
+Let’s click on the .exe to install it.
 
 ![image](https://github.com/user-attachments/assets/65ac1d42-62cc-49c6-a77a-abdfa77fa147)<br><br><br><br>
 
@@ -94,7 +94,7 @@ Unzip php-7.3.8-nts-Win32-VC15-x86.zip to the PHP folder you just created on the
 
 After that’s finished, we’re going to install VC_redist.x86.exe. Which installs Visual C++ redistributable, which is like a toolbox that osTicket needs to operate correctly. Installing it ensures that all the parts osTicket relies on are available on our virtual machine.
 
-Let’s click on the exe to get the installation started.
+Let’s click on the .exe to get the installation started.
 Now click on the box next to I agree and click Install. 
 
 ![image](https://github.com/user-attachments/assets/f08b09a0-e44d-48fe-a5d5-2f20e93c5e54)<br><br><br><br>
@@ -102,7 +102,7 @@ Now click on the box next to I agree and click Install.
 
 MySQL 5.5.62-win32 is going to install a MySQL Server which is a database that osTicket is going to store all of our data in, such as user accounts, ticketing information, etc.
 
-Let’s click on the exe to get started.
+Let’s click on the .exe to get started.
 When this window opens up, select Typical.
 
 
