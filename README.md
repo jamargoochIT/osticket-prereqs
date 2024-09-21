@@ -30,10 +30,10 @@ After we log into our Virtual Machine, we’re going to enable and install Inter
 
 IIS (Internet Information Services) is a web server that hosts websites and web applications. This webserver is going to run osTicket.
 CGI (Common Gateway Interface) is a standard way for a web server to communicate with scripts that can create web pages.
-CGI handles submitting tickets, saving tickets, sending emails, and user requested retrieving information.
+CGI handles submitting tickets, saving tickets, sending emails, and user-requested retrieving information.
 
 
-Type control panel in the Windows Search Bar and open the app. Click on to programs and features.
+Type control panel in the Windows Search Bar and open the app. Click on programs and features.
 
 
  
@@ -58,7 +58,7 @@ World Wide Web Services -> Application Development Services -> click the box nex
 ![image](https://github.com/user-attachments/assets/9428c221-0c3b-4b50-ac0d-a2ffce3ad385)<br><br><br><br>
 
  
-Click ok and wait for the changes to be applied.
+Click OK and wait for the changes to be applied.
 
 After the webserver is installed, we'll need to download the following:
 
@@ -67,7 +67,7 @@ After the webserver is installed, we'll need to download the following:
 
 
 
-Fist up, PHPManagerForIIS_V1.5.0.msi.
+First up, PHPManagerForIIS_V1.5.0.msi.
 PHP is a backend webserver language that osTicket runs on. 
 Now we’ll click on the .exe to install it.
 
@@ -84,7 +84,7 @@ Let’s click on the .exe to install it.
 
 Now let’s create a folder in the C drive named PHP.
 
-On the C drive we’re going to unzip the PHP files that osTicket is going to use.
+On the C drive, we’re going to unzip the PHP files that osTicket is going to use.
 
 Unzip php-7.3.8-nts-Win32-VC15-x86.zip to the PHP folder you just created on the C drive.
 
@@ -100,7 +100,7 @@ Now click on the box next to I agree and click Install.
 ![image](https://github.com/user-attachments/assets/f08b09a0-e44d-48fe-a5d5-2f20e93c5e54)<br><br><br><br>
 
 
-MySQL 5.5.62-win32 is going to install a MySQL Server which is a database that osTicket is going to store all of our data in, such as user accounts, ticketing information, etc.
+MySQL 5.5.62-win32 is going to install a MySQL Server, which is a database that osTicket is going to store all of our data in, such as user accounts, ticketing information, etc.
 
 Let’s click on the .exe to get started.
 When this window opens up, select Typical.
@@ -137,8 +137,8 @@ Select next.
 
 
 
-Here we’ll need to create a password, for the Root user, for simplicity, I'll use boot for my password.
-You’ll want to use something more secure. Remember the password you make as we’ll be using it when we get to HeidiSQL.
+Here we’ll need to create a password for the Root user, for simplicity, I'll use boot for my password.
+You’ll want to use something more secure. Remember the password you make, as we’ll be using it when we get to HeidiSQL.
 
 
 
@@ -153,7 +153,7 @@ Now, click execute.
 
 Now, we’re going to make the webserver aware that PHP has been installed on the VM and tell it where it is.
 Open up IIS as an administrator.
-Click on PHP Manager -> Register new PHP version. Follow this path -> C drive -> PHP -> PHP-cgi.exe.
+Click on PHP Manager -> Register new PHP version. Follow this path: C drive -> PHP -> PHP-cgi.exe.
 ![image](https://github.com/user-attachments/assets/60485847-bd2b-4872-b867-b15956d35d5f)
 ![image](https://github.com/user-attachments/assets/07d419df-7c1c-4572-bcd2-042e6f2a2d88)<br><br><br><br>
 
@@ -223,7 +223,7 @@ Then enable (through right-clicking) the following PHP extensions:
 - php_intl.dll
 - php_opcache.dll<br>
 
-They'll be in the greyed out disabled section.
+They'll be in the grayed out disabled section.
 
 ![image](https://github.com/user-attachments/assets/c6e5c638-8044-48be-a76e-85462cc204f0)<br><br><br><br>
 
@@ -245,9 +245,9 @@ And it should change to the following:
 
 
 
-Next up, we'll want to rename the file, ost-sampleconfig.php to ost-config.php. We’re renaming the file because the ost-sampleconfig has sample settings, and renaming it allows osTicekt to use the actual configuration file.
+Next up, we'll want to rename the file ost-sampleconfig.php to ost-config.php. We’re renaming the file because the ost-sampleconfig has sample settings, and renaming it allows osTicekt to use the actual configuration file.
 
-The path to this file is the following: C: -> inetpub -> wwwroot -> osTicket -> include -> ost-sampleconfig.php
+The path to this file is the following: C:->inetpub->wwwroot->osTicket->include->ost-sampleconfig.php.
 
 
 ![image](https://github.com/user-attachments/assets/3f45bcc6-2082-4188-9339-995e4eb2e328)<br><br><br><br>
@@ -293,14 +293,14 @@ After we type in the permission, we can click OK.
 
 
 
-Now click Full control and then click OK.
+Now click Full control, and then click OK.
 
 
 ![image](https://github.com/user-attachments/assets/eefb5bad-e967-4628-91a8-77e71b143eea)<br><br><br><br>
 
 
 
-Then click apply and then OK and OK again.
+Then click apply, and then OK and OK again.
 
 
 ![image](https://github.com/user-attachments/assets/916760ef-3002-4eb5-bb87-632c68864bd1)<br><br><br><br>
@@ -324,7 +324,7 @@ Now we’ll fill out the required fields that are highlighted in the image.
 For the final time, let's go back to the osTicket-Installation-Files folder.
 We need to log into the backend database we created earlier (My SQL) and create another database specific to osTicket then provide the credentials for it.
 
-To do that we need to install HeidiSQL.
+To do that, we need to install HeidiSQL.
 
 HeidiSQL is an application that allows us to make a connection to and configure our database.
 
@@ -418,7 +418,7 @@ Now all you need to do is log in with the credentials we made in the Admin User 
 
 
 
-And that’s it, we’ve set up osTicket.
+And that’s it; we’ve set up osTicket.
 
 
 </p>
