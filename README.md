@@ -6,21 +6,11 @@
 This tutorial outlines the prerequisites and installation of the help desk ticketing system osTicket.<br />
 
 
-<h2>Environments and Technologies Used</h2>
-
-- Microsoft Azure (Virtual Machines)
-- Remote Desktop
-- Internet Information Services (IIS)
-
-<h2>Operating Systems Used </h2>
-
-- Windows 10</b> (21H2)
-
 <h2>List of Prerequisites</h2>
 
-![image](https://github.com/user-attachments/assets/1610e54b-03b5-4df2-ad66-38a6b3051af7)<br><br><br><br><br>
-
-
+![image](https://github.com/user-attachments/assets/1610e54b-03b5-4df2-ad66-38a6b3051af7)<br>
+- Microsoft Azure (Virtual Machines)
+- Windows 10</b> (21H2)<br><br><br><br>
 
 <h2>Installation Steps</h2>
 
