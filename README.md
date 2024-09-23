@@ -127,7 +127,7 @@ Select next.
 
 
 
-Here we’ll need to create a password for the Root user, for simplicity, I'll use boot for my password.
+Here we’ll need to create a password for the Root user; for simplicity, I'll use boot for my password.
 You’ll want to use something more secure. Remember the password you make, as we’ll be using it when we get to HeidiSQL.
 
 
@@ -169,8 +169,8 @@ After we’ve copied the upload folder to the destination above, rename the uplo
 
 
 
-Once again, run IIS as an admin. Stop and then start the server by right-clicking on virtual-ticket on the left side and selecting stop, then, once the server has stopped, right-click it again and select start. 
-Now On the left side, we’ll go down this path, virtual-ticket -> Sites -> Default Web Site -> osTicket.
+Once again, run IIS as an admin. Stop and then start the server by right-clicking on virtual ticket on the left side and selecting stop; then, once the server has stopped, right-click it again and select start. 
+Now On the left side, we’ll go down this path: virtual-ticket -> Sites -> Default Web Site -> osTicket.
 
 
 ![image](https://github.com/user-attachments/assets/ff60b0c2-781c-4964-a1b2-ef05672dfa43)<br><br><br><br>
@@ -213,7 +213,7 @@ Then enable (through right-clicking) the following PHP extensions:
 - php_intl.dll
 - php_opcache.dll<br>
 
-They'll be in the grayed out disabled section.
+They'll be in the grayed-out disabled section.
 
 ![image](https://github.com/user-attachments/assets/c6e5c638-8044-48be-a76e-85462cc204f0)<br><br><br><br>
 
